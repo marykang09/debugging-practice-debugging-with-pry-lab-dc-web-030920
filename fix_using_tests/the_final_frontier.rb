@@ -23,4 +23,4 @@ def engage(crew)
   greeting(crew)
   binding.pry
 end
-binding.pry
+
