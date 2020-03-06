@@ -1,4 +1,5 @@
 require_relative '../fix_using_tests/the_final_frontier'
+require 'pry'
 
 describe "the_final_frontier" do
   it "`engage` should return the captain's log and crew greetings" do
