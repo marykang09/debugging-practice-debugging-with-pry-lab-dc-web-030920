@@ -16,11 +16,10 @@ end
 def greeting(crew)
   crew.map {|crew_name| "Hello #{crew_name}."}
 end
-binding.pry
 
 def engage ()
   date = generate_star_date
   state_log(date)
   greeting(crew)
 end
-
+binding.pry
