@@ -1,4 +1,5 @@
 require_relative '../fix_using_tests/false_equivalency'
+require 'pry'
 
 describe "false_equivalency" do
   it "`selection` returns the correct string based on user input" do
