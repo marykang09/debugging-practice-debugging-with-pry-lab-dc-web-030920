@@ -1,4 +1,5 @@
 require_relative '../fix_using_tests/turtles_all_the_way_down'
+require 'pry'
 
 describe "turtles_all_the_way_down" do
   it "`turtle_traits` should be able to iterate through the array without breaking." do
